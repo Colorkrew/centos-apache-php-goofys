@@ -24,7 +24,6 @@ RUN yum update -y && \
         php-pecl-apc \
         php-pecl-memcache \
         php-xml \
-        postfix \
         php-xmlrpc && \
     pecl clear-cache && \
     printf "\n" | pecl install imagick-3.1.2 && \
